@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Movable walls placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fbfcfc"/><stop offset="1" stop-color="#e0ebed"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#c9d6da"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <path d="M102 128h696" stroke="#26313a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M160 128v388M305 128v388M450 128v388M595 128v388M740 128v388" stroke="#006B68" stroke-width="8" stroke-dasharray="22 18"/>
+  <rect x="136" y="168" width="132" height="310" rx="12" fill="url(#panel)" stroke="#b9c6cb" stroke-width="6"/>
+  <rect x="281" y="168" width="132" height="310" rx="12" fill="url(#panel)" stroke="#b9c6cb" stroke-width="6"/>
+  <rect x="426" y="168" width="132" height="310" rx="12" fill="url(#panel)" stroke="#b9c6cb" stroke-width="6"/>
+  <rect x="571" y="168" width="132" height="310" rx="12" fill="url(#panel)" stroke="#b9c6cb" stroke-width="6"/>
+  <path d="M646 292l64 46-64 46" fill="none" stroke="#2457D6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

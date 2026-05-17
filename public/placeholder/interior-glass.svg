@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Interior glass systems placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e1ecee"/></linearGradient>
+    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#8bb3bd" stop-opacity="0.68"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <path d="M104 478h696" stroke="#b6c3c8" stroke-width="12" stroke-linecap="round"/>
+  <rect x="148" y="96" width="172" height="380" fill="url(#glass)" stroke="#c6d3d8" stroke-width="7"/>
+  <rect x="340" y="96" width="172" height="380" fill="url(#glass)" stroke="#c6d3d8" stroke-width="7"/>
+  <rect x="532" y="96" width="172" height="380" fill="url(#glass)" stroke="#c6d3d8" stroke-width="7"/>
+  <path d="M174 140l118 286M368 140l118 286M558 140l118 286" stroke="#ffffff" stroke-width="10" opacity="0.7"/>
+  <rect x="386" y="290" width="86" height="18" rx="9" fill="#006B68"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Electronic access control placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dce9ed"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <rect x="315" y="92" width="270" height="436" rx="34" fill="#171A20"/>
+  <rect x="345" y="130" width="210" height="138" rx="18" fill="#006B68"/>
+  <circle cx="450" cy="399" r="68" fill="#2457D6"/>
+  <path d="M393 398h114M450 341v114" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.86"/>
+  <rect x="374" y="302" width="152" height="18" rx="9" fill="#e6f5f3"/>
+  <path d="M212 264c-44 63-44 129 0 197M688 264c44 63 44 129 0 197" fill="none" stroke="#006B68" stroke-width="17" stroke-linecap="round"/>
+</svg>

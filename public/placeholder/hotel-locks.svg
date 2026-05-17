@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Hotel lodging lock systems placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f9fbfb"/><stop offset="1" stop-color="#dfe8ea"/></linearGradient>
+    <linearGradient id="card" x1="0" x2="1"><stop stop-color="#2457D6"/><stop offset="1" stop-color="#006B68"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <rect x="190" y="80" width="330" height="460" rx="20" fill="#f1eee8" stroke="#cfd8dc" stroke-width="8"/>
+  <rect x="530" y="244" width="116" height="220" rx="26" fill="#171A20"/>
+  <rect x="552" y="274" width="72" height="44" rx="10" fill="#16a39a"/>
+  <circle cx="588" cy="380" r="24" fill="#f7fbfb"/>
+  <rect x="386" y="302" width="220" height="132" rx="22" fill="url(#card)" transform="rotate(-8 496 368)"/>
+  <path d="M428 350h92M428 390h142" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.88"/>
+</svg>

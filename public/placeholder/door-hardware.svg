@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Door hardware placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fbfb"/><stop offset="1" stop-color="#dbe7e9"/></linearGradient>
+    <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#eef3f5"/><stop offset="0.5" stop-color="#aeb9bf"/><stop offset="1" stop-color="#f8fbfb"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <rect x="142" y="76" width="454" height="488" rx="18" fill="#f7f4ef" stroke="#cfd8dc" stroke-width="8"/>
+  <rect x="199" y="132" width="340" height="376" rx="10" fill="#ffffff" opacity="0.56"/>
+  <rect x="586" y="230" width="142" height="48" rx="24" fill="url(#metal)" stroke="#7d8b92" stroke-width="6"/>
+  <circle cx="579" cy="254" r="54" fill="url(#metal)" stroke="#7d8b92" stroke-width="7"/>
+  <circle cx="579" cy="254" r="18" fill="#006B68"/>
+  <path d="M300 430h130" stroke="#2457D6" stroke-width="16" stroke-linecap="round"/>
+</svg>
