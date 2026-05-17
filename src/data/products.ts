@@ -1,5 +1,7 @@
 import type { Product } from '../types';
 
+const assetPath = (fileName: string) => `${import.meta.env.BASE_URL}placeholder/${fileName}`;
+
 export const productFilters = ['All', 'Openings', 'Electronic Security', 'Hospitality', 'Specialty'];
 
 export const products: Product[] = [
@@ -11,7 +13,7 @@ export const products: Product[] = [
       'Durable door closers, hinges, panic hardware, exit devices, and compliant accessories for high-use buildings.',
     features: ['Closers and floor springs', 'Exit devices', 'Fire-rated hardware'],
     icon: 'hardware',
-    image: '/placeholder/door-hardware.svg',
+    image: assetPath('door-hardware.svg'),
   },
   {
     id: 'automatic-entrance-systems',
@@ -21,7 +23,7 @@ export const products: Product[] = [
       'Sliding, swing, and sensor-controlled entrance packages that improve people flow, safety, and accessibility.',
     features: ['Sliding entrances', 'Swing operators', 'Sensor activation'],
     icon: 'door',
-    image: '/placeholder/automatic-entrance.svg',
+    image: assetPath('automatic-entrance.svg'),
   },
   {
     id: 'interior-glass-systems',
@@ -31,7 +33,7 @@ export const products: Product[] = [
       'Glass partitions, patch fittings, and door assemblies for open interiors that still need secure access points.',
     features: ['Patch fittings', 'Glass door hardware', 'Partition access points'],
     icon: 'glass',
-    image: '/placeholder/interior-glass.svg',
+    image: assetPath('interior-glass.svg'),
   },
   {
     id: 'mechanical-key-systems',
@@ -41,7 +43,7 @@ export const products: Product[] = [
       'Master key planning, cylinders, restricted keyways, and audit-friendly key control for multi-door facilities.',
     features: ['Master key hierarchy', 'Restricted cylinders', 'Key issue control'],
     icon: 'key',
-    image: '/placeholder/key-systems.svg',
+    image: assetPath('key-systems.svg'),
   },
   {
     id: 'electronic-access-control',
@@ -51,7 +53,7 @@ export const products: Product[] = [
       'Readers, controllers, credentials, mobile access, and door monitoring built around modern facility workflows.',
     features: ['RFID and mobile access', 'Door monitoring', 'Role-based permissions'],
     icon: 'access',
-    image: '/placeholder/electronic-access.svg',
+    image: assetPath('electronic-access.svg'),
   },
   {
     id: 'hotel-lodging-lock-systems',
@@ -61,7 +63,7 @@ export const products: Product[] = [
       'Guest room lock systems, staff credentials, and back-office access tools for hotels and serviced apartments.',
     features: ['Guest room locks', 'Staff access levels', 'Property management fit'],
     icon: 'hotel',
-    image: '/placeholder/hotel-locks.svg',
+    image: assetPath('hotel-locks.svg'),
   },
   {
     id: 'safe-locks',
@@ -71,7 +73,7 @@ export const products: Product[] = [
       'Electronic and mechanical safe lock solutions for retail cash rooms, vaults, pharmacies, and controlled storage.',
     features: ['Electronic safe locks', 'Dual-control options', 'Audit access modes'],
     icon: 'safe',
-    image: '/placeholder/safe-locks.svg',
+    image: assetPath('safe-locks.svg'),
   },
   {
     id: 'movable-walls',
@@ -81,6 +83,6 @@ export const products: Product[] = [
       'Flexible partition systems for meeting suites, banquet halls, training rooms, and multi-use commercial spaces.',
     features: ['Acoustic partitions', 'Track systems', 'Flexible room planning'],
     icon: 'wall',
-    image: '/placeholder/movable-walls.svg',
+    image: assetPath('movable-walls.svg'),
   },
 ];

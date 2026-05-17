@@ -13,13 +13,15 @@ interface HomeProps {
 }
 
 export function Home({ navigate }: HomeProps) {
+  const heroImage = `${import.meta.env.BASE_URL}placeholder/hero-access.svg`;
+
   return (
     <>
       <section
         className="relative isolate overflow-hidden bg-cover bg-center text-white"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(23,26,32,0.90) 0%, rgba(23,26,32,0.74) 42%, rgba(23,26,32,0.35) 100%), url('/placeholder/hero-access.svg')",
+            `linear-gradient(90deg, rgba(23,26,32,0.90) 0%, rgba(23,26,32,0.74) 42%, rgba(23,26,32,0.35) 100%), url('${heroImage}')`,
         }}
       >
         <div className="mx-auto flex min-h-[78svh] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">

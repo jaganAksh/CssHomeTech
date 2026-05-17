@@ -38,6 +38,26 @@ This is a static Vite website. Use these settings on most hosting providers:
 
 The project lockfile uses the public npm registry so cloud hosts can install dependencies without a private registry token. A local `.npmrc` can still be used on your machine, but it is gitignored and should not be committed.
 
+### GitHub Pages
+
+This repo includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+
+After pushing to GitHub:
+
+1. Open the repository on GitHub.
+2. Go to `Settings` -> `Pages`.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. Go to the `Actions` tab.
+5. Run or wait for `Deploy to GitHub Pages`.
+
+The free site URL will be:
+
+```text
+https://jaganaksh.github.io/CssHomeTech/
+```
+
+Every push to `main` will redeploy automatically.
+
 ### Vercel
 
 1. Push this project to GitHub, GitLab, or Bitbucket.
